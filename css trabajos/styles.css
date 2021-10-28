@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: #1f2322;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.turtle {
+    margin-bottom: 1rem;
+}
+.turtle img{
+    width: 50%;
+    border-radius: 1rem;
+    box-shadow: 0rem .3rem .3rem black;
+}
+.title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 1rem 0 0.5rem;
+    width: 16rem;
+    align-self: center;
+}
+
+.subtitle {
+    font-size: .7rem;
+    margin-bottom: 1rem;
+}
+.btn {
+    width: 25%;
+    align-self: center;
+    padding: .5rem .5rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    font-size: .6rem;
+    font-weight: 600;
+    background-color: #fb2256;
+    
+}
